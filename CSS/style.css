@@ -565,7 +565,7 @@
 }
 
 /* 1번 */
-@media all and(min-width: 1132px) {
+@media all and (min-width: 1132px) {
   .header {
     /* 이미 적용된 justify-content: space-between에 의하여 */
     /* 양 끝으로 정렬이 되는 상태이지만, 추가적인 여백을 주고 싶을때 사용하는방법 */
@@ -574,14 +574,14 @@
 }
 
 /* 2번 */
-@media all and(min-width: 1132px) {
+@media all and (min-width: 1132px) {
   .header nav {
     margin-left: auto;
   }
 }
 
 /* 3번 */
-@media all and(min-width: 1132px) {
+@media all and (min-width: 1132px) {
   .header .gnb {
     display: flex;
     /* justify-content: flex-end;  /* 메뉴 항목들을 우측으로 정렬*/
@@ -589,7 +589,7 @@
 }
 
 /* 4번 */
-@media all and(min-width: 1132px) {
+@media all and (min-width: 1132px) {
   /* nav 요소를 선택하여 왼쪽마진을 자동으로 설정 */
   .header nav {
     margin-left: auto; /*로고 뒤의 모든 여유 공간을 차지하여 nav를 우측 끝으로 밀어냄*/
